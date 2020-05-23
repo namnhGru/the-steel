@@ -1,0 +1,12 @@
+@font-face {
+  font-family: 'Barlow';
+  src: url('./fonts/BarlowCondensed-Regular.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+@font-face {
+  font-family: 'Chivo';
+  src: url('./fonts/Chivo-Black.ttf');
+  font-weight: normal;
+  font-style: normal;
+}
