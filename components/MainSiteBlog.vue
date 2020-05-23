@@ -25,7 +25,7 @@ export default {
 
 <style lang="postcss" scoped>
 .main-site-blog {
-  @apply px-8 pb-16;
+  @apply px-8 pb-16 flex flex-col items-center;
   & h2 {
     @apply font-chivo uppercase text-3xl font-thin text-center italic;
   }
