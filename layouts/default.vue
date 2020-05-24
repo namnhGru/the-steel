@@ -1,6 +1,14 @@
 <template>
   <div>
+    <header>
+      <header-left></header-left>
+    </header>
     <nuxt />
+    <footer>
+      <footer-contact></footer-contact>
+      <footer-copyright></footer-copyright>
+      <footer-social-network></footer-social-network>
+    </footer>
   </div>
 </template>
 

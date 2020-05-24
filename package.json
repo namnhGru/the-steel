@@ -9,7 +9,8 @@
     "build": "nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate",
-    "lint": "eslint --ext .js,.vue --ignore-path .gitignore ."
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "netlify": "git status; git add .; git commit -m \"to netlify\"; git push"
   },
   "dependencies": {
     "@nuxtjs/axios": "^5.3.6",
