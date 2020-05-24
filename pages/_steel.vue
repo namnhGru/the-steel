@@ -19,7 +19,9 @@
         </label>
         <input type="number" name="number-of-product" placeholder="1" />
       </form>
-      <button>Buy Product</button>
+      <nuxt-link to="/checkout">
+        <button>Buy Product</button>
+      </nuxt-link>
     </section>
     <section class="detail-product-relate">
       <main-site-features-items></main-site-features-items>

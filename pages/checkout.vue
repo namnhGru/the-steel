@@ -26,7 +26,7 @@ export default {}
 
 <style lang="postcss" scoped>
 .checkout-container {
-  @apply flex flex-col py-2;
+  @apply flex flex-col;
   & h2 {
     @apply bg-black font-barlow text-4xl font-black text-white text-center py-10;
   }

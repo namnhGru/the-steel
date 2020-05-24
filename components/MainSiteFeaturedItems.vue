@@ -7,7 +7,9 @@
       <p>Category</p>
       <p>Product Name</p>
       <p>$149.99</p>
-      <button>Buy Product</button>
+      <nuxt-link to="/steelI">
+        <button>Buy Product</button>
+      </nuxt-link>
     </div>
   </section>
 </template>

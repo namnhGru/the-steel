@@ -1,9 +1,11 @@
 <template>
   <div class="header-left">
     <a class="header-mobile-nav"><icon-menu></icon-menu></a>
-    <div class="header-site-branding">
-      <h1>TheSteel</h1>
-    </div>
+    <nuxt-link to="/">
+      <div class="header-site-branding">
+        <h1>TheSteel</h1>
+      </div>
+    </nuxt-link>
     <div class="header-site-cart">
       <icon-cart></icon-cart>
     </div>
