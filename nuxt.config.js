@@ -59,5 +59,7 @@ export default {
      */
     extend(config, ctx) {}
   },
-  routes: ['/steelI']
+  generate: {
+    routes: ['/steelI']
+  }
 }
