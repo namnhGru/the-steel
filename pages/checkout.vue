@@ -34,7 +34,7 @@ export default {}
     @apply font-chivo text-2xl px-4 mt-10;
   }
   & form {
-    @apply px-4 flex flex-col;
+    @apply px-4 flex flex-col py-4;
     & input,
     & textarea {
       @apply border mb-1;
