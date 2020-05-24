@@ -45,7 +45,7 @@ export default {
 <style lang="postcss" scoped>
 .detail-product-page {
   & .detail-product-container {
-    @apply px-4;
+    @apply px-4 py-2;
     & > img {
       @apply w-full;
     }
